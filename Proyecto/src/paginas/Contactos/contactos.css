@@ -1,71 +1,145 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-section{
-    display: flex;
-    margin-top: 30px;
 
+body {
+    font-family: serif;
+    background-color: rgb(23, 23, 23);
 }
 
-.container-content-contact{
+section {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container-content-contact {
     width: 60%;
     height: 100vh;
     color: white;
-    font-size: 19px;
-    text-align: center; 
+    font-size: 17px;
+    text-align: center;
+    font-weight: 9px; 
 }
 
-.container-content-contact h3{
+.container-content-contact h3 {
     color: #6fb8c0;
 }
-.container-content-contact p{
+
+.container-content-contact p {
     margin-right: 80px;
-    padding: 0 90px 0 90px;
 }
 
-.imagen-contact-contact{
-    width: 700px;
-    height:auto;
+.imagen-contact {
+    width: 700px; /* Ajusta la imagen para que se ajuste al contenedor */
+    height: auto;
     border: 1px solid #fc6100;
 }
-.container-form-contact{
+
+.container-form-contact {
     width: 40%;
     height: 100vh;
 }
 
-.formulario-contact{
+.formulario-contact {
     background-color: rgb(224, 224, 224);
     border-radius: 20px;
-    height: 110vh;
+    height: auto; /* Ajusta la altura automáticamente */
     margin: 10px 50px 30px 20px;
     padding: 10px;
     text-align: left;
 }
 
-.form-title-contact{
-    font-size: 25px;
+#miFormulario {
+    margin: 0px;
+}
+
+.form-title-contact {
+    font-size: 20px;
     color: gray;
 }
 
-.formulario-contact input{
+.formulario-contact input {
     border: 2px solid rgb(255, 168, 168);
-    padding: 2px;
+    padding: 0.5px;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .formulario-contact label {
     text-align: left;
-    display: block;
-    margin-bottom: 5px; /* Añade un poco de espacio debajo del label */
 }
-.inputText-contact{
+
+.formulario-contact p {
+    margin: 0px;
+}
+
+.inputText-contact {
     resize: vertical;
-    width: 400px;
+    width: 100%; /* Ajusta el ancho al contenedor */
+    max-width: 400px; /* Limita el ancho máximo */
     height: 50px;
 }
-.button-contact{
-    width: 60px;
-    height: 20px;
+
+.button-contact {
+    width: 100px; /* Aumenta el tamaño para mejor visibilidad */
+    height: 35px;
+}
+
+.button-contact:hover{
+    box-shadow: 2px 2px 6px black;
+}
+
+.contenedor-respuesta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Fondo oscuro con opacidad */
+    z-index: 1000;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.subcontenedor-respuesta {
+    width: 80%; /* Ajusta el tamaño según sea necesario */
+    max-width: 800px; /* Tamaño máximo */
+    padding: 20px;
+    background: rgb(174, 174, 174);
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: -5px 5px 10px black;
+    overflow: auto; /* Asegura que el contenido no se desborde */
+}
+
+
+.img-resp {
+    width: auto;
+    height: 200px; /* Ajusta la altura de la imagen */
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-respt-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.btn-respt-container button {
+    margin: 0 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #6fb8c0; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+}
+
+.btn-respt-container button:hover {
+    background-color: #5a9ab1; /* Color de fondo al pasar el mouse */
 }
