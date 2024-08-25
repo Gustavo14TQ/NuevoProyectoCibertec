@@ -1,10 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 section{
     display: flex;
     margin-top: 30px;
 
 }
 
-.container-content{
+.container-content-contact{
     width: 60%;
     height: 100vh;
     color: white;
@@ -12,51 +17,55 @@ section{
     text-align: center; 
 }
 
-.container-content h3{
+.container-content-contact h3{
     color: #6fb8c0;
 }
-.container-content p{
+.container-content-contact p{
     margin-right: 80px;
     padding: 0 90px 0 90px;
 }
 
-.imagen-contact{
+.imagen-contact-contact{
     width: 700px;
     height:auto;
     border: 1px solid #fc6100;
-
-
 }
-.container-form{
+.container-form-contact{
     width: 40%;
     height: 100vh;
 }
 
-.formulario{
+.formulario-contact{
     background-color: rgb(224, 224, 224);
     border-radius: 20px;
-    height: 100vh;
+    height: 110vh;
     margin: 10px 50px 30px 20px;
-    padding: 10px
+    padding: 10px;
+    text-align: left;
 }
 
-.form-title{
+.form-title-contact{
     font-size: 25px;
     color: gray;
 }
 
-.formulario input{
+.formulario-contact input{
     border: 2px solid rgb(255, 168, 168);
-    padding: 4px;
+    padding: 2px;
     border-radius: 10px;
 }
 
-textarea{
+.formulario-contact label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px; /* Añade un poco de espacio debajo del label */
+}
+.inputText-contact{
     resize: vertical;
     width: 400px;
     height: 50px;
 }
-button{
+.button-contact{
     width: 60px;
     height: 20px;
 }

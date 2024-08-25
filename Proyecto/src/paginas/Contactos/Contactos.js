@@ -3,7 +3,7 @@ import './contactos.css';
 function Contacto() {
     return (
       <section>
-        <div className="container-content-blog">
+        <div className="container-content-contact">
           <h3>¿Necesitas adaptar tu empresa familiar al mundo digital y proteger tu legado?</h3>
           <br />
           <p>
@@ -15,12 +15,12 @@ function Contacto() {
             luis.solorsano@apexwebsolutions.com <br />
             Cel: +51 987654321
           </p>
-          <img className="imagen-contact-blog" src="imagen-contact/ubicacion-contactanos.png" alt="Ubicación Contacto" />
+          <img className="imagen-contact" src="imagen-contact/ubicacion-contactanos.png" alt="Ubicación Contacto" />
         </div>
         {/* La parte de las secciones Formulario */}
-        <div className="container-form">
-          <div className="formulario">
-            <p className="form-title"><strong>Agenda una asesoría de 30 minutos</strong> con uno de nuestras estrategias</p>
+        <div className="container-form-contact">
+          <div className="formulario-contact">
+            <p className="form-title-contact"><strong>Agenda una asesoría de 30 minutos</strong> con uno de nuestras estrategias</p>
             <p>
               Conversemos sobre su estrategia de marketing y crecimiento <br /> no tiene ningún costo
             </p>
@@ -61,9 +61,9 @@ function Contacto() {
               <br /><br />
               <label htmlFor="mensaje">Mensaje</label>
               <br />
-              <textarea id="mensaje" className="inputText" name="mensaje" placeholder="Escribe aquí tu comentario" required></textarea>
+              <textarea id="mensaje" className="inputText-contact" name="mensaje" placeholder="Escribe aquí tu comentario" required></textarea>
               <br />
-              <button id="btn-enviar" type="submit">Enviar</button>
+              <button className="button-contact" id="btn-enviar" type="submit">Enviar</button>
               <br />
             </form>
           </div>
