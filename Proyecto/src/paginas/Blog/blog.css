@@ -55,24 +55,28 @@ section {
 
 .formulario-blog {
     width: 30%;
-    max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
-    margin: 0 20px; /* Ajusta el margen para centrar el formulario si es necesario */
+    max-width: 400px; 
+    margin: 0 20px; 
     color: rgb(97, 97, 97);
 }
 
 .title-p-blog {
     font-size: 25px;
-    margin: 20px 0; /* Ajusta el margen superior e inferior */
+    margin: 20px 0; 
     color: #1b9da9;
 }
 
 .newsletter-blog {
     display: flex;
-    align-items: center;
+}
+.newsletter-blog input{
+    width: 8px;
+    height: 8px;
 }
 
 .newsletter-blog p {
     padding-left: 6px;
+    text-align: justify;
 }
 
 .sub-form-blog {
@@ -83,18 +87,14 @@ section {
 
 .sub-form-blog input {
     border-radius: 7px;
-    padding: 5px 10px; /* Ajusta el padding para el espacio interno */
+    padding: 5px 10px; 
     margin-bottom: 10px;
     width: 100%;
 }
 
 .sub-form-blog button {
-    padding: 10px 20px; /* Ajusta el padding para el botón */
-    border-radius: 10px;
-    background-color: #1b9da9;
-    color: white;
-    border: none;
-    cursor: pointer;
+    width: 200px;
+    height: 40px;
 }
 
 .books, .qwe {
@@ -103,5 +103,5 @@ section {
 
 .sub-form img {
     display: block;
-    margin: 20px auto; /* Ajusta el margen para centrar la imagen */
+    margin: 20px auto;
 }

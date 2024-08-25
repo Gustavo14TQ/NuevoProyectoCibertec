@@ -38,8 +38,12 @@ function Blog() {
                         <input type="text" placeholder="Nombre" required />
                         <input type="email" placeholder="¡Dinos tu mejor gmail!" required />
                         <div className="newsletter-blog">
-
-                            <p>Deseo recibir la Newsletter y acepto su <u>política y privacidad</u></p>
+                        <input 
+                            type="checkbox" 
+                            style={{ width: '20px', height: '20px', margin: '0', padding: '0', border: '2px solid #ccc', backgroundColor: '#fff' }} required />
+                            <p>Deseo recibir la Newsletter y acepto su <u>política y privacidad</u></p><br></br><br></br>
+                            <br></br>
+                            <button>Enviar</button>
                         </div>
 
                     </form>
