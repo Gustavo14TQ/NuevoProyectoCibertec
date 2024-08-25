@@ -1,3 +1,107 @@
-.header{
-    color: red;
+/* Estilos generales */
+
+
+body {
+    background-color: black;
+}
+
+/* Contenido */
+section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.images-blog {
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-blog {
+    background-color: white;
+    padding-top: 20px;
+    width: 400px;
+    height: 300px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 30px 40px 80px;
+    border-radius: 20px;
+    box-shadow: 7px 3px 10px #6fb8c0;
+    transition: transform 0.3s ease;
+}
+
+.image-blog:hover {
+    transform: scale(1.09);
+}
+
+.image-blog p {
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+.image-blog img {
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+}
+
+.image-3-blog i {
+    font-size: 80px;
+    padding: 30px 10%;
+}
+
+.formulario-blog {
+    width: 30%;
+    max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 20px; /* Ajusta el margen para centrar el formulario si es necesario */
+    color: rgb(97, 97, 97);
+}
+
+.title-p-blog {
+    font-size: 25px;
+    margin: 20px 0; /* Ajusta el margen superior e inferior */
+    color: #1b9da9;
+}
+
+.newsletter-blog {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-blog p {
+    padding-left: 6px;
+}
+
+.sub-form-blog {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(232, 232, 232);
+}
+
+.sub-form-blog input {
+    border-radius: 7px;
+    padding: 5px 10px; /* Ajusta el padding para el espacio interno */
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.sub-form-blog button {
+    padding: 10px 20px; /* Ajusta el padding para el botón */
+    border-radius: 10px;
+    background-color: #1b9da9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.books, .qwe {
+    text-align: center;
+}
+
+.sub-form img {
+    display: block;
+    margin: 20px auto; /* Ajusta el margen para centrar la imagen */
 }

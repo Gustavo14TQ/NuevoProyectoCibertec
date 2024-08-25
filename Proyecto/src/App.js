@@ -15,7 +15,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to="/conocenos" />} /> {/* Redirige a la página inicial */}
+        <Route path="/" element={<Navigate to="/blog" />} /> {/* Redirige a la página inicial */}
         <Route path="/conocenos" element={<Conocenos />} />
         <Route path="/sectores" element={<Sectores />} />
         <Route path="/blog" element={<Blog />} />

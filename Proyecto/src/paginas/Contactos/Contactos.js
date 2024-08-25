@@ -3,7 +3,7 @@ import './contactos.css';
 function Contacto() {
     return (
       <section>
-        <div className="container-content">
+        <div className="container-content-blog">
           <h3>¿Necesitas adaptar tu empresa familiar al mundo digital y proteger tu legado?</h3>
           <br />
           <p>
@@ -15,7 +15,7 @@ function Contacto() {
             luis.solorsano@apexwebsolutions.com <br />
             Cel: +51 987654321
           </p>
-          <img className="imagen-contact" src="imagen-contact/ubicacion-contactanos.png" alt="Ubicación Contacto" />
+          <img className="imagen-contact-blog" src="imagen-contact/ubicacion-contactanos.png" alt="Ubicación Contacto" />
         </div>
         {/* La parte de las secciones Formulario */}
         <div className="container-form">
