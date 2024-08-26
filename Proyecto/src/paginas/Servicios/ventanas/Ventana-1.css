@@ -1,0 +1,49 @@
+header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 10px 50px 10px;
+}
+.div-1{
+    width: 35%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    
+}
+.carrusel{
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+.carrusel img{
+    width: 80%;
+    height: 250px;
+    padding: 20px;
+}
+.carrusel p{
+    padding-top: 20px;
+    padding: 20px;
+}
+.div-2{
+    width: 35%;
+    height: 500px;
+    float: right;
+    text-align: center;
+}
+h1{
+    color: aqua;
+}
+p{
+    color: white;
+    padding: 10px;
+}
+.p-1{
+    color: aqua;
+}
+.div-3{
+    text-align: center;
+}
+#final{
+    color: gray;
+}

@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+.div-1{
+    width: 84%;
+    height: 500px;
+    background-image: url('https://veneportal.com/clasificados/wp-content/uploads/sites/6/classified-listing/2021/09/Soporte-tecnico.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    margin: 0 8% 0 8%;
+}
+.div-2{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+p{
+    color: rgb(109, 243, 241);
+    padding: 40px 10px 10px 10px;
+    width: 40%;
+    float: left;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    
+}
+button{
+    float: left;
+    color: rgb(229, 36, 250);
+    margin: 30px;
+    background-color: aqua;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+h3{
+    width: 60%;
+    height: 100px;
+    color: rgba(24, 28, 28, 0.879);
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+}
+.img-1{
+    width: 100%;
+    height: 200px;
+}
+ul{
+    margin-top: 30px;
+    color: #6ccdd0;
+}
+li{
+    color: aqua;
+    margin-top: 20px;
+}
