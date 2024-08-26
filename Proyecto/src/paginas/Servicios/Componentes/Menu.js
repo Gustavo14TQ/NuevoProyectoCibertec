@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Link, useLocation } from 'react-router-dom';
+import { Link,  } from 'react-router-dom';
 function Menu(){
     return (
         <>
@@ -14,6 +14,7 @@ function Menu(){
                 <Link to='/ventana'>MANTENIMIENTO Y ACTUALIZACIÓN DE PÁGINAS WEB </Link> 
             </li>
          </ol>
+         
         </>
     )
 }

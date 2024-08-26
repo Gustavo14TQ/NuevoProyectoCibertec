@@ -2,10 +2,9 @@
 import React, { Fragment } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './servicios.css';
-import Carrusel from "./Componentes/Carrusel";
-import { Menu } from "react-bootstrap/lib/Dropdown";
+import Carrusel from "./Componentes/Carrusel"
+import Menu from "./Componentes/Menu";
 function Servicios() {
-  
   return (
     <>
       <div className="cuerpo">
