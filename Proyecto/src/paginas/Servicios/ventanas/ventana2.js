@@ -1,14 +1,15 @@
 import { Fragment } from "react";
 import ImagenVentana2 from "../Componentes/ImagenV2";
-import './ventana-2.css'
+
+import './css/ventana-2.css'
 import ImagenIluminada from "../Componentes/ImgV2ilu";
 import ImagenGiratoria from "../Componentes/ImgGira";
 function Ventana2(){
     return(
         <>
         <header className="head">
-        <div className="div-1">
-            <p>
+        <div className="div-12">
+            <p className="p12">
                 <b>EXPERTOS EN MEJORAR PÁGINAS WEB</b><br/> <br/>Ya sabes que tu sitio web es la columna vertebral de tu presencia digital. Y como tal, el mantenimiento web ayuda a reflejar el valor de tu marca. En concreto, estas son las ventajas de invertir en este proceso
             </p>
             
@@ -16,10 +17,10 @@ function Ventana2(){
             
         </div>
     </header>
-    <div class="div-2">
-        <nav className="NAV1">
+    <div class="div-22">
+        <nav className="NAV12">
             <ImagenVentana2></ImagenVentana2>
-            <ul>SERVICIO DE MANTENIMIENTO WEB
+            <ul className="ul12">SERVICIO DE MANTENIMIENTO WEB
                 <li>ACTUALIZACIONES</li>
                 <li>ELIMINACION DE PAGINAS ERROR</li>
                 <li>OPTIMIZACIÓN SEO</li>
@@ -27,9 +28,9 @@ function Ventana2(){
                 <li>MONITORIZACIÓN</li>
             </ul>
         </nav>
-        <nav className="NAV1">
+        <nav className="NAV12">
             <ImagenIluminada></ImagenIluminada>
-            <ul>TIPOS DE MANTENIMIENTO
+            <ul className="ul12">TIPOS DE MANTENIMIENTO
                 <li>MANTENIMIENTO PREVENTIVO</li>
                 <li>MANTENIMIENTO CORRECTIVO</li>
                 <li>MANTENIMIENTO EVOLUTIVO</li>
@@ -37,9 +38,9 @@ function Ventana2(){
                 
             </ul>
         </nav>
-        <nav className="NAV1">
+        <nav className="NAV12">
             <ImagenGiratoria></ImagenGiratoria>
-            <ul>SOPORTE WEB
+            <ul className="ul12">SOPORTE WEB
                 <li>OPTIMIZACIÓN DE RENDIMIENTO</li>
                 <li>ANÁLISIS Y SEGIMIENTO</li>
                 <li>SEGURIDAD Y BACKUPS</li>
