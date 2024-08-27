@@ -11,7 +11,9 @@ import Proyectos from './paginas/Proyectos/Proyectos';
 import Servicios from './paginas/Servicios/Servicios';
 import Ventana from './paginas/Servicios/ventanas/Ventana';
 import Ventana1 from './paginas/Servicios/ventanas/Ventana-1';
-import Ventana2 from './paginas/Servicios/ventanas/Ventana-2';
+import Ventana2 from './paginas/Servicios/ventanas/ventana2';
+
+
 function App() {
   return (
     <>
