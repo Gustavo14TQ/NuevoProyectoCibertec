@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Link,  } from 'react-router-dom';
+import { Link,Outlet  } from 'react-router-dom';
 function Menu(){
     return (
         <>
@@ -8,12 +8,13 @@ function Menu(){
                 <Link to='/ventana'>CAMPAÑA DE POSICIONAMIENTO WEB </Link> 
             </li>
             <li> 
-                <Link to='/ventana'>DISEÑO Y PROGRAMACIÓN WEB A MEDIDA </Link> 
+                <Link to='/ventana1'>DISEÑO Y PROGRAMACIÓN WEB A MEDIDA </Link> 
             </li>
             <li> 
-                <Link to='/ventana'>MANTENIMIENTO Y ACTUALIZACIÓN DE PÁGINAS WEB </Link> 
+                <Link to='/ventana2'>MANTENIMIENTO Y ACTUALIZACIÓN DE PÁGINAS WEB </Link> 
             </li>
          </ol>
+         <Outlet></Outlet>
          
         </>
     )

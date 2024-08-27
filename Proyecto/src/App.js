@@ -9,7 +9,9 @@ import Contactos from './paginas/Contactos/Contactos';
 import Presupuesto from './paginas/Presupuesto/Presupuesto';
 import Proyectos from './paginas/Proyectos/Proyectos';
 import Servicios from './paginas/Servicios/Servicios';
-
+import Ventana from './paginas/Servicios/ventanas/Ventana';
+import Ventana1 from './paginas/Servicios/ventanas/Ventana-1';
+import Ventana2 from './paginas/Servicios/ventanas/Ventana-2';
 function App() {
   return (
     <>
@@ -23,6 +25,9 @@ function App() {
         <Route path="/presupuesto" element={<Presupuesto />} />
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/servicios" element={<Servicios to="/Servicios" />} />
+        <Route path="/ventana" element={<Ventana to="/ventana" />} />
+        <Route path="/ventana1" element={<Ventana1 to="/ventana1" />} />
+        <Route path="/ventana2" element={<Ventana2 to="/ventana2" />} />
       </Routes>
     </>
   );

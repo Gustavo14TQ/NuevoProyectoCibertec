@@ -1,9 +1,9 @@
 import { Fragment } from "react";
-import Carrusel from '3'
-import './Ventana-2.css';
-function Ventana2() {
+import Carrusel from "../Componentes/Carrusel";
+import './Ventana-2.css'
+function Ventana2(){
     return(
-    <>
+        <>
        <header>
         <div class="div-1">
             <p>
@@ -49,4 +49,4 @@ function Ventana2() {
     </>
     )
 }
-export default Ventana2
+export default Ventana2;
