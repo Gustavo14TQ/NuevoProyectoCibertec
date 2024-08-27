@@ -17,4 +17,14 @@
   .imagen-ventana2 img:hover {
     transform: scale(1.1);
   }
+  .imagen-giratoria {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .imagen-giratoria img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
   

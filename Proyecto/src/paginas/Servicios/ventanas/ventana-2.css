@@ -59,7 +59,8 @@ h3{
 }
 .img-1{
     width: 100%;
-    height: 200px;
+    height: 370px;
+    border-radius: 10PX;
 }
 ul{
     margin-top: 30px;
