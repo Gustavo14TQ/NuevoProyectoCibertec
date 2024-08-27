@@ -16,11 +16,7 @@ function Ventana1(){
     <div class="carrusel">
         <p>Una pagina web es mucho mas que un catálogo,es una herramienta de marketing,ventas y servicio al cliente extremadamente poderosa disponible <br/>
         </p>
-        <img id="img-1" src="image/ventana2-1.jpg" alt="Imagen 1"/>
-        <img id="img-2" src="image/ventana2-2.webp" alt="Imagen 2"/>
-        <img id="img-3" src="image/ventana2-3.jpg" alt="Imagen 3"/>
-        <button class="flecha-izquierda">‹</button>
-        <button class="flecha-derecha">›</button>
+        
     </div>
     <div class="div-21">
         <p class="p-1">¿para qué sirve una página web?</p><br/><br/>
