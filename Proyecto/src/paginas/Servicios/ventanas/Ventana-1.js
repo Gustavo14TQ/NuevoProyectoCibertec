@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+import Album from "../Componentes/Album";
+import CambiaColor from "../Componentes/Titulo";
 
 function Ventana1(){
     return(
@@ -16,7 +18,7 @@ function Ventana1(){
     <div class="carrusel">
         <p>Una pagina web es mucho mas que un catálogo,es una herramienta de marketing,ventas y servicio al cliente extremadamente poderosa disponible <br/>
         </p>
-        
+        <Album></Album>
     </div>
     <div class="div-21">
         <p class="p-1">¿para qué sirve una página web?</p><br/><br/>
@@ -25,8 +27,7 @@ function Ventana1(){
 
     </div>
     <div class="div-3">
-        <h2 id="final">Una página web bien diseñada y funcional puede aumentar la visibilidad del negocio, mejorar su credibilidad y aumentar las ventas. 
-        </h2>
+        <CambiaColor></CambiaColor>
     </div>
        </>
     )
