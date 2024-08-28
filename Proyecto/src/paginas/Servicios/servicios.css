@@ -9,8 +9,8 @@ body{
 }
 .cuerpo{
     width: 100%;
-    height: 600px;
-    
+    height: 400px;
+    margin-top: 100px;
 }
 .d-block {
     width: 100%;
@@ -63,3 +63,27 @@ body{
 b{
     color: #6ccdd0;
 }
+.cuerpo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230521/pngtree-robot-with-a-tablet-computer-and-a-black-background-image_2666163.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    animation: desplazamiento 60s infinite;
+    filter: contrast(0.8) brightness(0.5);
+  }
+  
+  @keyframes desplazamiento {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  

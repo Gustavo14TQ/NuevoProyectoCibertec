@@ -6,7 +6,8 @@ import Carrusel from "./Componentes/Carrusel"
 import Menu from "./Componentes/Menu";
 function Servicios() {
   return (
-    <>
+    <> 
+      <div id="fondo">
       <div className="cuerpo">
         <nav className="nav-1">
          <Carrusel/>
@@ -15,6 +16,8 @@ function Servicios() {
           <Menu></Menu>
 
         </nav>
+      </div>
+
       </div>
     </>
   )
