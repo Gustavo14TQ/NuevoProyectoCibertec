@@ -5,13 +5,13 @@ function Menu(){
         <>
          <ol>
             <li> 
-                <Link to='/ventana'>CAMPAÑA DE POSICIONAMIENTO WEB </Link> 
+                <Link className="li-1" to='/ventana'>CAMPAÑA DE POSICIONAMIENTO WEB </Link> 
             </li>
             <li> 
-                <Link to='/ventana1'>DISEÑO Y PROGRAMACIÓN WEB A MEDIDA </Link> 
+                <Link className="li-1" to='/ventana1'>DISEÑO Y PROGRAMACIÓN WEB A MEDIDA </Link> 
             </li>
             <li> 
-                <Link to='/ventana2'>MANTENIMIENTO Y ACTUALIZACIÓN DE PÁGINAS WEB </Link> 
+                <Link className="li-1" to='/ventana2'>MANTENIMIENTO Y ACTUALIZACIÓN DE PÁGINAS WEB </Link> 
             </li>
          </ol>
          <Outlet></Outlet>
