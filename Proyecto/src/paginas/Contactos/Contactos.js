@@ -58,7 +58,9 @@ function ContactoS() {
             <div className="container-form-contact">
                 <div className="formulario-contact">
                     <p className="form-title-contact"><strong>Agenda una asesoría de 30 minutos</strong> con uno de nuestras estrategias</p>
-                    <p>Conversemos sobre su estrategia de marketing y crecimiento <br /> no tiene ningún costo</p>
+                    <p style={{
+                    color: "black"
+                }}>Conversemos sobre su estrategia de marketing y crecimiento <br /> no tiene ningún costo</p>
                     <form onSubmit={handleSubmit}>
                         <label htmlFor="nombre">Nombre</label>
                         <input
