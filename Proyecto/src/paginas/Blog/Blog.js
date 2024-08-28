@@ -2,6 +2,11 @@
 import React from 'react';
 import './blog.css';
 function Blog() {
+    const handleSubmit = () => {
+        alert("Formulario enviado");
+    };
+
+    
   return (
     <div>
        <section>
@@ -38,14 +43,15 @@ function Blog() {
                         <input type="text" placeholder="Nombre" required />
                         <input type="email" placeholder="¡Dinos tu mejor gmail!" required />
                         <div className="newsletter-blog">
-                        <input 
+                        <div className="textoboton"><input 
                             type="checkbox" 
                             style={{ width: '20px', height: '20px', margin: '0', padding: '0', border: '2px solid #ccc', backgroundColor: '#fff' }} required />
-                            <p>Deseo recibir la Newsletter y acepto su <u>política y privacidad</u></p><br></br><br></br>
+                            <p>Deseo recibir la Newsletter y acepto su <u>política y privacidad</u></p>
+                            </div>
+                            
+                            <button className="btn-enviar" onClick={handleSubmit}>Enviar</button>
                             <br></br>
-                            <button>Enviar</button>
                         </div>
-
                     </form>
                     <p className="books-blog">¡Nuestros Ebooks gratis!</p>
                     <p className="qwe-blog">Stop¡ 40 preguntas antes de contratar un diseño web</p>
@@ -54,7 +60,7 @@ function Blog() {
             </div>
         </section>
     </div>
-  );
+);
 }
 
 export default Blog;

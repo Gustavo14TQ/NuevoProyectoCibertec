@@ -65,6 +65,7 @@ section {
     padding: 0.5px;
     border-radius: 10px;
     margin-bottom: 5px;
+    width: 150px;
 }
 
 .formulario-contact label {
@@ -143,3 +144,4 @@ section {
 .btn-respt-container button:hover {
     background-color: #5a9ab1; /* Color de fondo al pasar el mouse */
 }
+

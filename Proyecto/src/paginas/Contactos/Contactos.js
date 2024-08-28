@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import './contactos.css';
-import ubicacion from '/workspaces/Proyecto-cibertec/Proyecto/src/assets/ubicacion-contactanos.png';
+import ubicacionContactanos from '../../assets/ubicacion-contactanos.png';
+
+
 
 function ContactoS() {
     const [formData, setFormData] = useState({
@@ -28,6 +30,7 @@ function ContactoS() {
 
     const handleReset = () => {
         setFormData({
+
             nombre: '',
             apellido: '',
             correo: '',
@@ -53,7 +56,7 @@ function ContactoS() {
                     luis.solorsano@apexwebsolutions.com <br />
                     Cel: +51 987654321
                 </p>
-                <img className="imagen-contact" src={ubicacion} alt="Ubicación Contacto" />
+                <img className="imagen-contact" src={ubicacionContactanos} alt="Ubicación Contacto" />
             </div>
             <div className="container-form-contact">
                 <div className="formulario-contact">
@@ -79,9 +82,10 @@ function ContactoS() {
                             value={formData.apellido}
                             onChange={handleChange}
                             required
-                        />
+                        /><br></br>
                         <label htmlFor="correo">Correo</label><br></br>
                         <input
+                            style={{ width: '300px' }}
                             type="email"
                             className="inputText"
                             id="correo"
@@ -92,7 +96,8 @@ function ContactoS() {
                         /><br></br>
                         <label htmlFor="numerotelf">Número de teléfono</label><br></br>
                         <input
-                            type="text"
+                        style={{ width: '300px' }}
+                            type="nummber"
                             className="inputText"
                             id="numerotelf"
                             name="numerotelf"
@@ -102,6 +107,7 @@ function ContactoS() {
                         /><br></br>
                         <label htmlFor="dominio">Escribe el dominio o página web de la empresa</label><br></br>
                         <input
+                        style={{ width: '300px' }}
                             type="text"
                             className="inputText"
                             id="dominio"
@@ -112,6 +118,7 @@ function ContactoS() {
                         /><b></b><br></br>
                         <label htmlFor="nombre_empresa">Nombre de la empresa</label><br></br>
                         <input
+                        style={{ width: '300px' }}
                             type="text"
                             className="inputText"
                             id="nombre_empresa"
@@ -122,6 +129,7 @@ function ContactoS() {
                         /><br></br>
                         <label htmlFor="ciudad">Ciudad</label><br></br>
                         <input
+                        style={{ width: '300px' }}
                             type="text"
                             className="inputText"
                             id="ciudad"
@@ -131,6 +139,7 @@ function ContactoS() {
                             required
                         />
                         <label htmlFor="mensaje">Mensaje</label>
+                        
                         <textarea
                             id="mensaje"
                             className="inputText-contact"
