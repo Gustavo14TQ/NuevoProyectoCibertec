@@ -1,23 +1,26 @@
 import { Fragment } from "react";
-import Carrusel from '3'
-import './Ventana-2.css';
-function Ventana2() {
+import ImagenVentana2 from "../Componentes/ImagenV2";
+
+import './css/ventana-2.css'
+import ImagenIluminada from "../Componentes/ImgV2ilu";
+import ImagenGiratoria from "../Componentes/ImgGira";
+function Ventana2(){
     return(
-    <>
-       <header>
-        <div class="div-1">
-            <p>
+        <>
+        <header className="head">
+        <div className="div-12">
+            <p className="p12">
                 <b>EXPERTOS EN MEJORAR PÁGINAS WEB</b><br/> <br/>Ya sabes que tu sitio web es la columna vertebral de tu presencia digital. Y como tal, el mantenimiento web ayuda a reflejar el valor de tu marca. En concreto, estas son las ventajas de invertir en este proceso
             </p>
-            <h3> "Con nosotros,<br/> tu sitio web estará siempre <br/>actualizado y seguro."</h3>
-            <button><a href="../APEXWEB_SOLUTION/Presupuesto.html">INGRESA TU PRESUPUESTO</a></button><button><a href="../Contactanos/Contactanos.html">CONTACTANOS</a></button>
+            
+           
             
         </div>
     </header>
-    <div class="div-2">
-        <nav>
-            <Carrusel/>
-            <ul>SERVICIO DE MANTENIMIENTO WEB
+    <div class="div-22">
+        <nav className="NAV12">
+            <ImagenVentana2></ImagenVentana2>
+            <ul className="ul12">SERVICIO DE MANTENIMIENTO WEB
                 <li>ACTUALIZACIONES</li>
                 <li>ELIMINACION DE PAGINAS ERROR</li>
                 <li>OPTIMIZACIÓN SEO</li>
@@ -25,9 +28,9 @@ function Ventana2() {
                 <li>MONITORIZACIÓN</li>
             </ul>
         </nav>
-        <nav>
-            <img class="img-1" src="image/ventana3-4.webp"/>
-            <ul>TIPOS DE MANTENIMIENTO
+        <nav className="NAV12">
+            <ImagenIluminada></ImagenIluminada>
+            <ul className="ul12">TIPOS DE MANTENIMIENTO
                 <li>MANTENIMIENTO PREVENTIVO</li>
                 <li>MANTENIMIENTO CORRECTIVO</li>
                 <li>MANTENIMIENTO EVOLUTIVO</li>
@@ -35,9 +38,9 @@ function Ventana2() {
                 
             </ul>
         </nav>
-        <nav>
-            <img class="img-1" src="image/ventana3-3.webp"/>
-            <ul>SOPORTE WEB
+        <nav className="NAV12">
+            <ImagenGiratoria></ImagenGiratoria>
+            <ul className="ul12">SOPORTE WEB
                 <li>OPTIMIZACIÓN DE RENDIMIENTO</li>
                 <li>ANÁLISIS Y SEGIMIENTO</li>
                 <li>SEGURIDAD Y BACKUPS</li>
@@ -46,7 +49,7 @@ function Ventana2() {
             </ul>
         </nav>
     </div>
-    </>
+        </>
     )
 }
 export default Ventana2

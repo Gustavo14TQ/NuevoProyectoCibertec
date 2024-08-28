@@ -2,24 +2,22 @@
 import React, { Fragment } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './servicios.css';
-import Carrusel from "./Componentes/Carrusel";
+import Carrusel from "./Componentes/Carrusel"
+import Menu from "./Componentes/Menu";
 function Servicios() {
-  
   return (
-    <>
+    <> 
+      <div id="fondo">
       <div className="cuerpo">
         <nav className="nav-1">
          <Carrusel/>
         </nav>
         <nav className="nav-2">
-          <ol>
-            <li><a href="indexventana1.html">CAMPAÑA DE POSICIONAMIENTO WEB (SEO)</a></li>
-            <li><a href="indexventana2.html">DISEÑO Y PROGRAMACIÓN WEB A MEDIDA</a></li>
-            <li><a href="indexventana3.html">MANTENIMIENTO Y ACTUALIZACIÓN DE PÁGINAS WEB</a></li>
-
-          </ol>
+          <Menu></Menu>
 
         </nav>
+      </div>
+
       </div>
     </>
   )

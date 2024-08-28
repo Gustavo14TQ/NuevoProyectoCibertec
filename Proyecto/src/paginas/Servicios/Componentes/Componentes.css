@@ -1,0 +1,85 @@
+.imagen-ventana2 {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagen-ventana2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  /*imagen giratotia*/
+  .imagen-ventana2 img:hover {
+    transform: scale(1.1);
+  }
+  .imagen-giratoria {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .imagen-giratoria img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .contenedor-imagen {
+    display: inline-block;
+    perspective: 1000px;
+  }
+  
+  .imagen-giratoria10 {
+    width: 100%;
+    height: 100%;
+    transition: transform 10s linear infinite;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    animation: girar 10s linear infinite;
+  }
+  
+  @keyframes girar {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+    /* album*/
+    .album {
+      width: 650px;
+      height: 500px;
+      position: relative;
+    }
+    
+    .album img {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+    
+    .image-1 {
+      left: 0;
+    }
+    
+    .image-2 {
+      right: 0;
+      opacity: 0;
+    }
+    
+    .album:hover .image-2 {
+      opacity: 1;
+    }
+    
+    .album:hover .image-1 {
+      opacity: 0;
+    }
+    
+    
+    
