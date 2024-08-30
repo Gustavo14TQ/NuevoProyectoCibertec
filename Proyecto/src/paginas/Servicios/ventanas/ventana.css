@@ -2,46 +2,34 @@ body{
     background-color: black;
     text-align: center;
 }
-.contenedor-principal-ventana{
+header{
     width: 100%;
-    height: 120vh;
-}
-
-.header-ventana{
+    height: 100%;
     text-align: center;
     margin-top: 30px;
 }
-
-.header-ventana h1{
-    color: aqua;
-}
-
-.header-ventana p{
-    padding-top: 50px;
-    color: white;
-    font-weight: 6px;
-}
-.container-text-ventana{
+.div-1{
     width: 50%;
     height: 600px;
     padding: 40px;
     float: left;
-}
 
-.texto-ventana{
-    color: white;
-    font-size: 16px;
 }
-
-.div-2{   
+.div-2{
     width: 50%;
     height: 600px;
     float: right;
     padding: 40px;
-    margin-top: 30px;
 }
-
-.parrafo-titulo-ventana{
+h1{
+    color: #6ccdd0;
+}
+p{
+    color: white;
+    padding: 20px;
+    margin-top: 10px ;
+}
+.p1{
     color: #6ccdd0;
     padding: 40px;
 }
