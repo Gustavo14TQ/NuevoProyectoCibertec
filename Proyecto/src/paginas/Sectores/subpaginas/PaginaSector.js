@@ -4,7 +4,7 @@ import './paginasector.css'; // Asegúrate de que el archivo CSS esté en la ubi
 
 function PaginaSector() {
   return (
-    <div>
+    <div className="contenedor-pagina-sector">
       <div className="regresar">
         <Link to="/sectores">
           <i className="fa-solid fa-arrow-right-from-bracket fa-rotate-180" style={{ color: "#1b9da9" }}></i>

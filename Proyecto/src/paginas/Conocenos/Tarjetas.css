@@ -1,0 +1,36 @@
+.furniture-card {
+    position: relative;
+    width: 300px; /* Ajusta el ancho según sea necesario */
+    height: 400px; /* Ajusta la altura según sea necesario */
+    background-color: #f0f0f0; /* Color de fondo gris */
+    overflow: hidden;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(226, 6, 171, 0.2); /* Sombra */
+    transition: transform 0.3s ease; /* Efecto de transición para el hover */
+  }
+  
+  .furniture-card:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+  }
+  
+  .furniture-image {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    transition: opacity 0.3s ease; /* Efecto de transición para el hover */
+  }
+  
+  .furniture-info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .furniture-title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .furniture-description {
+    font-size: 1rem;
+    color: #3bd6bc;
+  }

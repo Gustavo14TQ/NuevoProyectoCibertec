@@ -21,10 +21,10 @@ header{
     float: right;
     padding: 40px;
 }
-h1{
+.header-ventana h1{
     color: #6ccdd0;
 }
-p{
+.contenedor-principal-ventana p{
     color: white;
     padding: 20px;
     margin-top: 10px ;

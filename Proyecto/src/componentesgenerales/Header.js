@@ -13,8 +13,8 @@ function Header() {
       <img id="imagen" src={logo} className="logo-header" alt="Logo" />
       <nav className="navegacion">
         <Link 
-          className={`menu ${location.pathname === '/conocenos' ? 'active' : ''}`} 
-          to="/conocenos"
+          className={`menu ${location.pathname === '/PaginaConocenos' ? 'active' : ''}`} 
+          to="/paginaConocenos"
         >
           Conócenos
         </Link>

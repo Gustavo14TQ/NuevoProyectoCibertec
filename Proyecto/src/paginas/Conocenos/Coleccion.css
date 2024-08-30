@@ -1,0 +1,53 @@
+
+
+.container {
+
+    align-items: center; /* Alinear verticalmente los elementos */
+    padding: 20px; /* Espaciado alrededor del contenido */
+    background-color: #000000; /* Color de fondo opcional */
+    
+  }
+
+  
+  .left-content {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos h1 y h3 en columna */
+  }
+  
+  .right-content {
+    max-width: 60%; /* Limitar el ancho del párrafo si es necesario */
+    text-align: center;
+  }
+
+  h2 {
+    color:#6fb8c0 ;
+   text-align: center;
+   font-size: 35px ;
+  }
+
+  h2:hover{
+    color: #FF1493;
+    transform: scale(1.1);
+    }
+  
+    h3{
+      text-align: center; 
+      color:#FF1493;
+      font-size: 20px ;
+    }
+
+    h3:hover{
+      color: #FF1493;
+      transform: scale(1.1
+      );
+      }
+
+
+  ul li{
+    color: #b8d0d6;
+    text-align: right;
+    text-align: left;
+    font-size: 28px ;
+  }
+
+  
