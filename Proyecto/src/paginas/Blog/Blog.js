@@ -56,7 +56,9 @@ function Blog() {
                         <div className="textoboton"><input 
                             type="checkbox" 
                             style={{ width: '20px', height: '20px', margin: '0', padding: '0', border: '2px solid #ccc', backgroundColor: '#fff' }} required />
-                            <p>Deseo recibir la Newsletter y acepto su <u>política y privacidad</u></p><br></br><br></br>
+                            <p>Deseo recibir la Newsletter y acepto su <u>política y privacidad</u></p>
+                            </div>                           
+                            <button className="btn-enviar" onClick={handleSubmit}>Enviar</button>
                             <br></br>
                         </div>
                     </form>

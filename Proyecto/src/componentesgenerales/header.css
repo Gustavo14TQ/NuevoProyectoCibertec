@@ -1,0 +1,43 @@
+.header {
+    padding: 0 0 40px 0;
+
+    border-bottom: 7px outset rgba(55,216,174,0.27);
+border-radius: 0px 0px 40px 40px;
+}
+.logo-header{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top:0;
+    left: 120px;
+}
+    
+.navegacion{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #263e44;
+    margin: 30px 30px 0px 300px;
+    color: #6fb8c0;
+    padding: 10px 5px 10px 40px;
+    display: flex;
+    justify-content:space-around;
+    font-size: 22px;
+}
+.navegacion a{
+    color: #548d8a;
+}
+.menu{
+    background: #263e44;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.menu:hover{
+    color: rgb(223, 241, 241);
+    transform: scale(1.2);
+}
+
+
+.navegacion:hover{
+    box-shadow: 0 0 7px 5px  rgb(170, 233, 230);
+}

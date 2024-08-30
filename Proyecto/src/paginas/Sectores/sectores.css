@@ -30,10 +30,11 @@
 
 
 .box-images{
-    margin-top: 20px;
+    margin: 20px 0 30px 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
+
 }
 
 .container-caja{
@@ -63,4 +64,8 @@
 
 .container-caja a:hover{
     box-shadow: 2px 2px 10px black;
+}
+
+.container-caja p {
+    color: black;
 }

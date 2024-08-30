@@ -131,3 +131,7 @@ section {
     display: block;
     margin: 20px auto;
 }
+
+.textoboton p{
+    color: black;
+}

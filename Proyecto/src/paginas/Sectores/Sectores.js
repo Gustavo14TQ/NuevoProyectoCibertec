@@ -17,18 +17,18 @@ function Sectores() {
         <p className="text-section-title">SECTORES en los que nos especializamos desde hace más de 8 años</p>
         <br />
         <br />
-        <p>
+        <p styles="black">
           Como agencia de crecimiento y marketing estratégico, estamos comprometidos a ofrecer resultados tangibles que generan un impacto real. Nuestro equipo de profesionales experimentados trabaja en estrecha colaboración con los clientes para identificar sus objetivos y desafíos únicos y desarrollar estrategias personalizadas que aborden sus necesidades específicas.
         </p>
         <br />
-        <p>
+        <p styles="black">
           Ya sea creando campañas de marketing específicas, optimizando cadenas de suministros o implementando tecnologías de vanguardia, tenemos la experiencia y los recursos para ayudar a las empresas a prosperar en el panorama competitivo actual.
         </p>
       </div>
       <div className="box-images">
         <div className="caja1 container-caja">
           <img src={imagen1} alt="Sector Comercial e Industrial" />
-          <p>
+          <p styles="black">
             Sector Comercial e Industrial <br />
             B2B - B2C
           </p>
@@ -43,7 +43,7 @@ function Sectores() {
         </div>
         <div className="caja2 container-caja">
           <img src={imagen2} alt="Sector Agroindustrial" />
-          <p>
+          <p styles="black">
             Sector Agroindustrial <br />
             B2B - B2C
           </p>

@@ -5,13 +5,13 @@ import './paginasector.css'; // Asegúrate de que el archivo CSS esté en la ubi
 function PaginaSector() {
   return (
     <div>
-     <div className="regresar">
+      <div className="regresar">
         <Link to="/sectores">
           <i className="fa-solid fa-arrow-right-from-bracket fa-rotate-180" style={{ color: "#1b9da9" }}></i>
           <b>Regresar</b>
         </Link>
       </div>
-      <h1>Experiencia Comprobada en el Sector Agroindustrial</h1>
+      <h1 className="h1-PaginaSector">Experiencia Comprobada en el Sector Agroindustrial</h1>
       <p className="sector-agro">B2B - I</p>
       <section>
         <div className="imagenes">

@@ -1,71 +1,61 @@
-.head{
-    width: 100%;
-    height: auto;
+body{
+    background-color: black;
     text-align: center;
-    align-items: center;
-    
 }
-.div-1{
-    width: 84%;
-    height: 500px;
-    background-image: url('https://veneportal.com/clasificados/wp-content/uploads/sites/6/classified-listing/2021/09/Soporte-tecnico.jpg');
-    background-size: cover;
-    background-position: center;
-    
-    margin: 50px 8% 0 8%;
-}
-.div-2{
+.contenedor-principal-ventana{
     width: 100%;
-    height: 500px;
-    text-align: center;
-    padding-top: 20px;
+    height: 120vh;
+}
 
-}
-p{
-    color: rgb(109, 243, 241);
-    padding: 40px 10px 10px 10px;
-    width: 40%;
-    float: left;
-    font-size: 20px;
-    padding-top: 60px;
-    padding-bottom: 30px;
-    
-}
-.btn1{
-    float: left;
-    color: rgb(229, 36, 250);
-    margin: 30px;
-    background-color: rgb(149, 231, 231);
-    padding: 10px;
-}
-a{
-    text-decoration: none;
-    color: red;
-}
-h3{
-    width: 60%;
-    height: 100px;
-    color: rgba(24, 28, 28, 0.879);
-    float: right;
+.header-ventana{
     text-align: center;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.NAV1{
-    width: 30%;
-    float: left;
-    margin-left: 2.5%;
-}
-.img-1{
-    width: 100%;
-    height: 370px;
-    border-radius: 10PX;
-}
-ul{
     margin-top: 30px;
-    color: #6ccdd0;
 }
-li{
+
+.header-ventana h1{
     color: aqua;
-    margin-top: 20px;
+}
+
+.header-ventana p{
+    padding-top: 50px;
+    color: white;
+    font-weight: 6px;
+}
+.container-text-ventana{
+    width: 50%;
+    height: 600px;
+    padding: 40px;
+    float: left;
+}
+
+.texto-ventana{
+    color: white;
+    font-size: 16px;
+}
+
+.div-2{   
+    width: 50%;
+    height: 600px;
+    float: right;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.parrafo-titulo-ventana{
+    color: #6ccdd0;
+    padding: 40px;
+}
+.btn-1{
+    background-color: #6ccdd0;
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+#img-1{
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;;
+
 }

@@ -1,23 +1,32 @@
-body{
-    background-color: black;
+
+/* ventana1*/
+.header-ventana1 h3{
+    color: aliceblue
 }
-header{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    padding: 20px 10px 50px 10px;
+.h1-ventana1{
+    margin-top: 50px;
+    color: aqua;
 }
-.div-1{
+.contenedor1-text-ventana1{
     width: 35%;
     height: 500px;
     float: left;
     text-align: center;
-    
+}
+.contenedor1-parrafo-titulo{
+    color: aqua;
+}
+.contenedor1-text-ventana1 p{
+    color: white;
+    padding: 10px;
 }
 .carrusel{
     width: 30%;
     height: 500px;
     float: left;
+}
+.carrusel p{
+    color: white;
 }
 .carrusel img{
     width: 80%;
@@ -28,25 +37,21 @@ header{
     padding-top: 20px;
     padding: 20px;
 }
-.div-2{
+.contenedor-2-text-ventana1{
     width: 35%;
     height: 500px;
     float: right;
     text-align: center;
 }
-h1{
-    color: aqua;
-}
-p{
+.contenedor-2-text-ventana1 p{
     color: white;
-    padding: 10px;
 }
-.p-1{
-    color: aqua;
-}
-.div-3{
-    text-align: center;
-}
+
+
 #final{
     color: gray;
+}
+
+.div-1{
+    margin-top: 20px ;
 }

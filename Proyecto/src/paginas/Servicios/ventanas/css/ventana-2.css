@@ -1,28 +1,31 @@
-
-.head{
+.contenedor-principal-ventana2{
+    position: relative;
+    width: 100%;
+    height: 170vh;
+}
+.header-ventana2{
     width: 100%;
     height: auto;
     text-align: center;
     align-items: center;
     
 }
-.div-12{
+.contenedor-text-ventana2{
     width: 84%;
     height: 500px;
     background-image: url('https://veneportal.com/clasificados/wp-content/uploads/sites/6/classified-listing/2021/09/Soporte-tecnico.jpg');
     background-size: cover;
     background-position: center;
-    
     margin: 50px 8% 0 8%;
 }
-.div-22{
+.container-img-ventana2{
     width: 100%;
     height: 500px;
     text-align: center;
     padding-top: 20px;
 
 }
-.p12{
+.contenedor-text-ventana2 p{
     color: rgb(109, 243, 241);
     padding: 40px 10px 10px 10px;
     width: 40%;
@@ -40,9 +43,7 @@
     padding: 10px;
 }
 
-
-
-.NAV12{
+.imgText-ventana2{
     width: 30%;
     float: left;
     margin-left: 2.5%;
@@ -52,69 +53,11 @@
     height: 370px;
     border-radius: 10PX;
 }
-.ul12{
+.imgText-ventana2 ul{
     margin-top: 30px;
     color: #6ccdd0;
 }
-li{
+.imgText-ventana2 ul li{
     color: aqua;
     margin-top: 20px;
-}
-/* ventana1*/
-.head11{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    padding: 20px 10px 50px 10px;
-}
-.div-11{
-    width: 35%;
-    height: 500px;
-    float: left;
-    text-align: center;
-    
-}
-.carrusel{
-    width: 30%;
-    height: 500px;
-    float: left;
-}
-.carrusel img{
-    width: 80%;
-    height: 250px;
-    padding: 20px;
-}
-.carrusel p{
-    padding-top: 20px;
-    padding: 20px;
-}
-.div-21{
-    width: 35%;
-    height: 500px;
-    float: right;
-    text-align: center;
-}
-h1{
-    color: aqua;
-
-}
-.h31{
-    color: aliceblue;
-}
-p{
-    color: white;
-    padding: 10px;
-}
-.p-1{
-    color: aqua;
-}
-.div-3{
-    text-align: center;
-}
-#final{
-    color: gray;
-}
-/*ventana*/
-div-1{
-    margin-top: 20px ;
 }
