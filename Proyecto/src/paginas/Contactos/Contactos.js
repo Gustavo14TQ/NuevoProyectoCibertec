@@ -44,7 +44,7 @@ function ContactoS() {
     };
 
     return (
-        <section>
+        <section className="contenedor-principal-contactos">
             <div className="container-content-contact">
                 <h3>¿Necesitas adaptar tu empresa familiar al mundo digital y proteger tu legado?</h3>
                 <p>

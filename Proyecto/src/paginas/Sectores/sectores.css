@@ -30,7 +30,7 @@
 
 
 .box-images{
-    margin: 20px 0 30px 0;
+    margin: 20px 0 10px 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -68,4 +68,5 @@
 
 .container-caja p {
     color: black;
+    
 }

@@ -10,6 +10,7 @@ section {
 }
 
 .images-blog {
+    height: 300px;
     width: 70%;
     color: white;
     display: flex;
