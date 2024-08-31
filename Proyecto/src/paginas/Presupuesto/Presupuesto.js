@@ -132,7 +132,7 @@ function Presupuesto() {
           />
           <div className="mili"><br></br></div>
         </Form.Group>
-        <Button type="submit">Enviar datos</Button>
+        <Button class='boton-presupuesto' type="submit">Enviar datos</Button>
       </Form>
       </div>
     </>

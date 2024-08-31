@@ -1,14 +1,15 @@
 // src/components/HeaderBanner.js
 import React, { useState, useEffect } from 'react';
-import './Banner.css'; 
+import './Banner.css'
+
 
 const Banner = () => {
-
+  // Arreglo con las imágenes del carrusel
   const images = [
-    './imagen/banner1.jpg',
-    './imagen/banner2.jpg',
-    './imagen/banner7.jpg',
-    './imagen/banner8.jpg',
+    '/imagen/banner1.jpg',
+    '/imagen/banner2.jpg',
+    '/imagen/banner7.jpg',
+    '/imagen/banner8.jpg',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
