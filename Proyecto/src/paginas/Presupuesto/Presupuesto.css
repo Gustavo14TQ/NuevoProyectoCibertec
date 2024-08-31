@@ -37,3 +37,21 @@ h1{
 button:hover {
     background-color: #4494a8 !important;
 }
+
+hr {
+    box-shadow: 0 0 7px 4px #FF1493;
+  height: 3px;
+  }
+
+.h3-presupuesto{
+   background-color:black !important;
+   color: #6FB8BC !important  ; 
+   font-size: 50px !important ;
+
+  }
+  
+.px{
+    color: white;
+    font-size: 25px 
+
+}

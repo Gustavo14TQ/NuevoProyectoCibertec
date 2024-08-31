@@ -7,8 +7,8 @@ function Ventana() {
         <>
         <div className="contenedor-principal-ventana">
             <header className="header-ventana">
-        <h1 className="header-ventana">SERVIVIO DE POSICIONAMIENTO SEO</h1>
-        <p>Estudiamos y analizamos las palabras claves de tu negocio.Creamos la estrategia,te ayudamos a escribir los contenidos, optimizamos
+        <h1 className="h1">SERVIVIO DE POSICIONAMIENTO SEO</h1>
+        <p className="p-11">Estudiamos y analizamos las palabras claves de tu negocio.Creamos la estrategia,te ayudamos a escribir los contenidos, optimizamos
             la pagína web y buscamos referidosque generan lincks de autoridad para que tu página web salga en los primeros resultadosde los motores de búsqueda y redes sociales
         </p>
     </header>
@@ -25,7 +25,7 @@ function Ventana() {
 
     </div>
     
-    <div class="div-2">
+    <div class="contenedor2">
      <ImagenGiratoria/>
     </div>
                 

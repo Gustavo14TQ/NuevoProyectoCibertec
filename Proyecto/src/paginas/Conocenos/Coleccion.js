@@ -6,7 +6,7 @@ function Coleccion() {
     <>
       <div className="container">
         <div className="left-content">
-          <h2>
+          <h2 className="h2-coleccion">
             Conoce el equipo que ayuda a las empresas familiares a navegar en el
             panorama digital y salvaguardar su patrimonio.
           </h2>
@@ -26,7 +26,7 @@ function Coleccion() {
         <br></br>
         <br></br>
         <br></br>
-        <h3>TRANSFORMANDO LA INNOVACIÓN TECNOLÓGICA MÁS ALLÁ DE LO DIGITAL</h3>
+        <h3 className="h3-coleccion">TRANSFORMANDO LA INNOVACIÓN TECNOLÓGICA MÁS ALLÁ DE LO DIGITAL</h3>
       </div>
     </>
   );

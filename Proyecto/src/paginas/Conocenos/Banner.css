@@ -1,28 +1,32 @@
-.header-banner {            /* Ajusta el ancho según sea necesario */
+.header-banner {
+  position: relative;
   width: 100%;
-  height: 600px;
-  padding-left: 50px; 
-
+  height: 500px; /* Ajusta según el tamaño del banner */
+  overflow: hidden;
 }
 
-  .carousel-container {
-    display: flex;
-    overflow: hidden;
-  }
-  
-  .carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-item {
-    min-width: 100%;
-    height: 100%;
-  }
-  
-  .banner-image {
-    width: 1800px;
-    height:600px;
-    object-fit: cover; /* Asegura que la imagen cubra el área del banner */
-  }
-  
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.banner-slide.active {
+  opacity: 1;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}

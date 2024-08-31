@@ -70,8 +70,9 @@ function Presupuesto() {
       alert("Errores:\n" + errorMessages.join("\n"));
     } else {
       alert(
-        `Estimad@  : ${nombres} ${apellidos},Lo solicitado "${descripcion}" está en proceso, el número de páginas a considerar en su presupuesto es de: ${numero} páginas ,le enviaremos el presupuesto a este correo,  ${correo} y un asesor se contactará con uste al siguiente número ${celular}. Gracias por contactar a APEXWEB-SOLUTIONS.`
+        `Estimad@: ${nombres} ${apellidos}, Lo solicitado "${descripcion}" está en proceso, el número de páginas a considerar en su presupuesto es de: ${numero} páginas. Le enviaremos el presupuesto a este correo: ${correo} y un asesor se contactará con usted al siguiente número: ${celular}. Gracias por contactar a APEXWEB-SOLUTIONS.`
       );
+      
     }
   };
 
@@ -84,6 +85,14 @@ function Presupuesto() {
 
   return (
     <>
+     
+<h3 className="h3-presupuesto">Elevemos tu negocio</h3>
+<br></br>
+<br></br>
+<p className="px">Al enviar tus datos en este formulario, aceptas recibir comunicación de parte de APEXWEB-SOLUTIONS :</p>
+<br></br>
+
+
     <div className="centered-form">
       <Form onSubmit={realizarEnvio}>
       <div><h1>Formulario Presupuesto</h1></div>
@@ -140,6 +149,3 @@ function Presupuesto() {
 }
 
 export default Presupuesto;
-
-
-

@@ -19,24 +19,24 @@
     text-align: center;
   }
 
-  h2 {
+.h2-coleccion {
     color:#6fb8c0 ;
    text-align: center;
    font-size: 35px ;
   }
 
-  h2:hover{
+.h2-coleccion:hover{
     color: #FF1493;
     transform: scale(1.1);
     }
   
-    h3{
+.h3-coleccion{
       text-align: center; 
       color:#FF1493;
       font-size: 20px ;
     }
 
-    h3:hover{
+.h3-coleccion:hover{
       color: #FF1493;
       transform: scale(1.1
       );
